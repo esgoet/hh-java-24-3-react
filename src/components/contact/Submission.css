@@ -1,0 +1,26 @@
+#submissions {
+    grid-area: submissions;
+    width: 90%;
+}
+
+blockquote {
+    color: #646cff;
+    font-style: italic;
+    margin: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    background-color: lavender;
+    color: #646cff;
+    font-weight: bold;
+    border-radius: 8px;
+    border: #646cff solid 1px;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+main {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto 100px auto;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "nav blog" "about blog" "submissions blog" ". blog";
+  justify-content: flex-start;
+}
+
+h2 {
+  text-align: left;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+

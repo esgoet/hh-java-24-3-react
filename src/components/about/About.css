@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.roundPic {
+    display: block;
+    border-radius: 100%;
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.fancy {
+    font-family: "Grand Hotel", cursive;
+    font-size: x-large;
+    color: mediumpurple;
+    padding: 0 3px;
+}
+
+
+#about {
+    grid-area: about;
+    width: 300px;
+    background-color: rgba(230,230,250, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: #7070aa;
+}
+
+#about h2 {
+    text-align: center;
+    color: white;
+}
